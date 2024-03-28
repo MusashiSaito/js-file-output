@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { createOutlookEventObjects } from "./project/project.js";
+import { createOutlookEventObjects } from "./project/*.js";
 
 const data = JSON.stringify(createOutlookEventObjects());
 
